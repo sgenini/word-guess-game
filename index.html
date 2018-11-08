@@ -15,31 +15,39 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kaushan+Script|Pacifico|Playfair+Display+SC:400,400i,700,700i,900,900i|Shadows+Into+Light" rel="stylesheet">
+
 </head>
 
 <body>
   <!-- Container Div -->
-  <div class="container">
-    <div class="row mt-4">
-        <div class="col-8">
-            <div class="jumbotron">
-                <h1 class="text-center">Guess that Fruit!</h1>
-                <h3 class="text-center"><small class="text-muted">A Hangman Style Game</small></h3>
-                <h5 class="text-center"><small class="text-muted">Start typing to begin!</small></h5>
-                <h3 class="text-center mt-4">Word:</h3>
-                <h3 class="text-center" id="blank-spaces"></h3>
-                <h5 class="text-muted text-center">Wrong Guesses:</h5>
-                <h5 class="text-center" id="wrong-guesses"></h5>
-                <br>
-                <h5>Guesses Left: </h5>
-                <h5 class="text-muted" id="guesses-left"></h5>
-                <br>
-                <h5>Wins: </h5>
-                <h5 class="text-muted" id="wins"></h5>
-                <h5>Losses: </h5>
-                <h5 class="text-muted" id="losses"></h5>
-            </div>
+  <div class="container-fluid">
+    <div class="center-div">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Guess that Fruit!</h1>
+          <h3 class="text-center"><small class="text-muted">A Hangman Style Game</small></h3>
+          <h5 class="text-center"><small class="text-muted">Start typing to begin!</small></h5>
+          <h3 class="text-center mt-4">Word:</h3>
+          <h3 class="text-center" id="blank-spaces"></h3>
+          <h5 class="text-muted text-center">Wrong Guesses:</h5>
+          <h5 class="text-center" id="wrong-guesses"></h5>
         </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-4">
+          <h5>Guesses Left: </h5>
+          <h5 class="text-muted" id="guesses-left"></h5>
+        </div>
+        <div class="col-4">
+          <h5>Wins: </h5>
+          <h5 class="text-muted" id="wins"></h5>
+        </div>
+        <div class="col-4">
+          <h5>Losses: </h5>
+          <h5 class="text-muted" id="losses"></h5>
+        </div>
+      </div>
     </div>
   </div>
 

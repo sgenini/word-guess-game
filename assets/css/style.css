@@ -1,0 +1,99 @@
+html { 
+    background: url(../images/brooke-lark-230140-unsplash.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Playfair Display SC', serif; */
+
+body {
+    font-family: 'Krona One', sans-serif;
+  }
+  
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+}
+
+h3 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+h5 {
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 10px;
+}
+
+div {
+    text-align: center;
+    width: auto;
+}
+
+p{
+	display: inline;
+}
+
+.container {
+    display: block;
+    overflow: auto;
+}
+.center-div { 
+    background-color: #FEFEFE;
+    height: 52%; 
+    width: 35%; 
+    overflow: none; 
+    margin: auto; 
+    padding: 2%;
+    position: absolute; 
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: 5px solid #4aaaa5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.col-4 {
+    text-align: center;
+}
+
+#blank-spaces {
+    color: darkslateblue;
+}
+
+#wrong-guesses {
+    color: darkslategray;
+}
+
+@media screen and (max-width: 1690px) {
+    .center-div {
+        height: 40%; 
+        width: 35%; 
+    }
+}
+@media screen and (max-width: 1280px)  {
+    .center-div {
+        height: 40%; 
+        width: 60%; 
+    }
+}
+@media screen and (max-width: 980px) {
+    .center-div {
+        height: 40%; 
+        width: 60%; 
+    }
+}
+@media screen and (max-width: 736px) {
+    .center-div {
+        height: 45%; 
+        width: 60%; 
+    }
+}
+@media screen and (max-width: 480px) {
+    .center-div {
+        height: 550%; 
+        width: 60%; 
+    }
+}
