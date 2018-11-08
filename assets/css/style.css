@@ -62,7 +62,7 @@ p{
     color: darkslategray;
 }
 
-@media screen and (max-width: 1690px) {
+/* @media screen and (max-width: 1690px) {
     .center-div {
         height: 40%; 
         width: 35%; 
@@ -91,4 +91,4 @@ p{
         height: 550%; 
         width: 60%; 
     }
-}
+} */
