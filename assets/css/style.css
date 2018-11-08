@@ -12,6 +12,7 @@ font-family: 'Playfair Display SC', serif; */
 
 body {
     font-family: 'Krona One', sans-serif;
+    background-color: transparent;
   }
   
 h1 {
@@ -40,19 +41,13 @@ p{
 .container {
     display: block;
     overflow: auto;
+    background: transparent;
 }
-.center-div { 
+
+.jumbotron {
     background-color: #FEFEFE;
-    height: 52%; 
-    width: 35%; 
-    overflow: none; 
-    margin: auto; 
-    padding: 2%;
-    position: absolute; 
-    top: 0; left: 0; bottom: 0; right: 0;
+    margin-top: 15%;
     border: 5px solid #4aaaa5;
-    border-radius: 5px;
-    text-align: center;
 }
 
 .col-4 {
